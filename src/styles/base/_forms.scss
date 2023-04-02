@@ -1,0 +1,8 @@
+.FormInput,
+.FormTextArea {
+  padding: var(--space-md);
+  outline: none;
+  border: 1px solid var(--clr-grey-faint);
+  border-radius: var(--border-radius);
+  background-color: var(--clr-grey-faint);
+}

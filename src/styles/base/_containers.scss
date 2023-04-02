@@ -1,0 +1,45 @@
+main {
+  min-height: calc(100vh - var(--header-height));
+}
+
+.SmallDivider {
+  width: 45px;
+  height: 4px;
+}
+
+.ContainerWrapper {
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+}
+
+/********** CONTAINER PADDED **********/
+
+.PaddedContainer {
+  padding-top: var(-space-xxl);
+  padding-bottom: var(-space-xxl);
+}
+
+/********** SPLIT CONTAINERS EQUALLY **********/
+
+.Split {
+  display: flex;
+  flex-direction: row;
+
+  & > * {
+    flex-basis: 100%;
+  }
+
+  & > * + * {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  .Split {
+    flex-direction: column;
+
+    & > * + * {
+      margin-left: 0;
+    }
+  }
+}

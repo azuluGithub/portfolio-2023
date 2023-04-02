@@ -1,0 +1,1 @@
+export const MAIN_ELEMENTS = 'MAIN_ELEMENTS';

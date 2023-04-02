@@ -1,0 +1,26 @@
+:root {
+    --navbar-height: 70px;
+}
+
+.NavBar {
+    width: 100%;
+    height: var(--navbar-height);
+
+    &-Container {
+        background-color: transparent;
+    }
+
+    &-NavList {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+      
+    &-NavItem a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+}
