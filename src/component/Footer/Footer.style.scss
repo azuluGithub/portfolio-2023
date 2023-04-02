@@ -1,0 +1,15 @@
+:root {
+    --footer-height: 60px;
+}
+
+.Footer {
+    height: var(--footer-height);
+    background-color: var(--clr-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-Text {
+        color: var(--clr-white)
+    }
+}

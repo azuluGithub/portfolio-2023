@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-xxl);
+}
+
+h2 {
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-xl);
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-light);
+  font-size: var(--fs-md);
+  line-height: 1.3rem;
+}
+
+.TextCenter {
+  text-align: center;
+}

@@ -1,0 +1,53 @@
+:root {
+  /** Font-Families **/
+  --ff-primary: 'Source Sans Pro', sans-serif;
+  --ff-secondary: 'Raleway', sans-serif;
+  --ff-additional-one: 'Pacifico', sans-serif;
+  --ff-additional-two: 'Secular One', sans-serif;
+  --ff-additional-three: 'Permanent Marker', sans-serif;
+  --ff-additional-four: 'Teko', sans-serif;
+  --ff-additional-five: 'Acme', sans-serif;
+  --ff-additional-six: 'Shadows Into Light', sans-serif;
+  --ff-additional-seven: 'Anton', sans-serif;
+  --ff-additional-eight: 'Lusitana', sans-serif;
+  --ff-additional-nine: 'Lilita One', sans-serif;
+  --ff-additional-ten: 'Righteous', sans-serif;
+  --ff-additional-eleven: 'Lobster', sans-serif;
+  --ff-additional-twelve: 'Kanit', sans-serif;
+  --ff-additional-thirteen: 'Bebas Neue', sans-serif;
+  --ff-additional-fourteen: 'Abril Fatface', sans-serif;
+  --ff-additional-fifteen: 'Satisfy', sans-serif;
+  
+  /** Font-Sizes **/
+  --fs-md: 1rem;
+  --fs-xl: 2rem;
+  --fs-xxl: 2.5rem;
+
+  /** Font-Weights **/
+  --fw-light: 400;
+  --fw-medium: 600;
+
+  /** Margins && Paddings **/
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xxl: 2.5rem;
+
+  /** Colors **/
+  --clr-primary: #221F28;
+  --clr-secondary: #C3C8E6;
+  --clr-grey-light: #D8D8D8;
+  --clr-grey-faint: #EEEEEE;
+  --clr-blue-base: #3E40A5;
+  --clr-red-base: #E5333C;
+  --clr-cadetblue-main: #3D8182;
+  --clr-clr-blue-tertiary: #1EB1DD;
+  --clr-burlywood-base: #deb887;
+  --clr-pink-base: #DB7093;
+  --clr-white: #fff;
+
+  --box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
+  --border-radius: 0.5rem;
+
+  --container-width: min(90%, 70.5rem);
+  --container-margin: auto;
+}
