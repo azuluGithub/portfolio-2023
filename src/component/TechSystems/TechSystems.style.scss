@@ -1,7 +1,8 @@
 .TechSystems {
-    background-color: transparent;
+    background-color: var(--clr-white);
 
     &-TechSystemsList {
-        background-color: transparent;
+        display: flex;
+        justify-content: space-evenly;
     }
 }

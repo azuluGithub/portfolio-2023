@@ -1,3 +1,16 @@
 .IconsContainer {
-    background-color: transparent;
+    height: var(--space-xxl);
+    width: var(--space-xxl);
+    border-radius: 20px;
+    background-color: var(--clr-grey-faint);
+    box-shadow: var(--box-shadow);
+    margin-right: var(--space-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-Icon {
+        height: 30px;
+        width: 30px;
+    }
 }

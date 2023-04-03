@@ -9,10 +9,16 @@ const TechSystemsCard = ({ system }) => {
 
         return (
             <div className='TechSystemsCard-Item' key={id}>
-                <span className=''>{ name }</span>
                 <IconsContainer img={img} />
+                <span className='TechSystemsCard-ItemName'>{ name }</span>
             </div>
         );
+    }
+
+    const renderDivider = () => {
+        return (
+            <div className='Divider'></div>
+        )
     }
 
     const renderItems = () => {
@@ -30,7 +36,9 @@ const TechSystemsCard = ({ system }) => {
         return (
             <div className='TechSystemsCard'>
                 <span className='TechSystemsCard-Title'>{ title }</span>
-                <div className='TechSystemsCard-SmallSpacer'></div>
+                { renderDivider() }
+                <div className='TechSystemsCard-SmallSpacer SmallDivider'></div>
+                { renderDivider() }
                 { renderItems() }
             </div>
         );

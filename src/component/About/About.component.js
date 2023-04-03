@@ -1,3 +1,5 @@
+import Divider from '../Divider';
+
 import './About.style.scss';
 
 const AboutComponent = () => {
@@ -50,9 +52,9 @@ const AboutComponent = () => {
     return (
       <div className='About-QuoteContainer'>
         <div className='About-VerticalSpacer'></div>
-        <p className='About-ContentText'>
+        <div className='About-ContentText'>
           {`“I have coded in C, PHP, Java, JavaScript and TypeScript. I have learnt Algorithms and Python. I wish to be good in Machine Learning and Artificial Intelligence. I want to build applications that will make impact on millions of lives.”`}
-        </p>
+        </div>
       </div>
     );
   }
@@ -62,8 +64,11 @@ const AboutComponent = () => {
       <div className='About-Content'>
         <div className='About-ContentContainer'>
           <h2 className='About-ContentHeading'>{'About Me'}</h2>
-          <div className='About-SmallSpacer'></div>
+          <Divider />
+          <div className='About-SmallSpacer SmallDivider'></div>
+          <Divider />
           { renderContacts() }
+          <Divider />
           { renderQuote() }
         </div>
       </div>
@@ -86,7 +91,7 @@ const AboutComponent = () => {
 
   const renderComponents = () => {
     return (
-      <div className='About-Components'>
+      <div className='About-Components Split'>
         { renderImage() }
         { renderContent() }
       </div>
@@ -96,7 +101,7 @@ const AboutComponent = () => {
   const renderAbout = () => {
     return (
       <section className='About'>
-        <div className='ContainerWrapper'>
+        <div className='ContainerWrapper PaddedContainer'>
           { renderComponents() }
         </div>
       </section>

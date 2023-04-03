@@ -1,3 +1,4 @@
+import Divider from '../Divider';
 import './TechStack.style.scss';
 
 const TechStack = () => {
@@ -60,8 +61,11 @@ const TechStack = () => {
     const renderTechStack = () => {
         return (
             <div className='TechStack'>
-                <span className='TechStack-Heading'>{'Tech Stack'}</span>
-                <div className='TechStack-SmallSpacer'></div>
+                <Divider />
+                <p className='TechStack-Heading TextCenter'>{'Tech Stack'}</p>
+                <Divider />
+                <div className='TechStack-SmallSpacer SmallDivider'></div>
+                <Divider />
                 { renderLanguages() }
             </div>
         );

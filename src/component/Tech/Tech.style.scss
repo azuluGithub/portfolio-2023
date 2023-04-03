@@ -1,7 +1,10 @@
 .Tech {
-    background-color: transparent;
+    background-color: var(--clr-grey-faint);
 
     &-Heading {
-        background-color: transparent;
+        font-size: var(--fs-xl);
+        font-weight: var(--fw-heavy);
+        line-height: 40px;
+        font-family: var(--clr-primary);
     }
 }

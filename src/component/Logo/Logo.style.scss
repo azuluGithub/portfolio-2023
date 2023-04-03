@@ -1,10 +1,14 @@
 .Logo {
 
     &-Left {
-        background-color: transparent;
+        font-size: var(--fs-xl);
+        font-weight: 600;
+        color: var(--clr-grey-light)
     }
 
     &-Right {
-        background-color: transparent;
+        font-size: 20px;
+        font-weight: 400;
+        color: var(--clr-secondary)
     }
 }

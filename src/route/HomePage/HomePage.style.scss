@@ -1,14 +1,23 @@
 .HomePage {
+    width: 100%;
 
     &-Hero {
-        background-color: transparent;
+        position: relative;
+        height: 100vh;
     }
 
     &-HeroBg {
-        background-color: transparent;
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
     }
 
-    &-HeroImage {
-        background-color: transparent;
+    &-HeroBgImage {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
 }

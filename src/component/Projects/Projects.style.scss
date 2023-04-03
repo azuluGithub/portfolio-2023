@@ -1,3 +1,10 @@
 .Projects {
-     background-color: transparent;
+     padding-top: 40px;
+     
+     &-Heading {
+          font-size: var(--fs-xl);
+          font-weight: var(--fw-heavy);
+          line-height: 40px;
+          font-family: var(--clr-primary);
+      }
 }

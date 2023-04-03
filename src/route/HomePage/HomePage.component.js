@@ -36,14 +36,14 @@ const HomePageComponent = () => {
 
     const renderComponent = () => {
         return (
-            <>
+            <div className='HomePage'>
                 { renderHero() }
                 <About />
                 <Tech />
                 <Projects />
                 <Contact />
                 <Footer />
-            </>
+            </div>
         );
     }
 
