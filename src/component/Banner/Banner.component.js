@@ -1,4 +1,5 @@
 import IconsContainer from '../IconsContainer';
+import Divider from '../Divider';
 
 import './Banner.style.scss';
 
@@ -54,11 +55,15 @@ const BannerComponent = () => {
     return (
       <div className='Banner-Content'>
         <span className='Banner-SubHeading'>{'Junior Software Developer'}</span>
+        <Divider />
         <h1 className='Banner-Heading'>{'ARNOLD ZULU'}</h1>
-        <div className='Banner-SmallSpacer'></div>
+        <Divider />
+        <div className='Banner-SmallSpacer SmallDivider'></div>
+        <Divider />
         <p className='Banner-ContentText'>
           {'I am a MERN Stack JavaScript developer with a Software Engineering NQF level 5 certificate. I can work as a Front-End developer, PHP developer, Node.Js developer, JavaScript developer, React Js developer and Software developer. I build applications in PHP, HTML, CSS, ReactJs, Express and NodeJs, MongoDB, MySQL, PostgreSQL and JavaScript.'}
         </p>
+        <Divider />
         { renderContacts() }
       </div>
     );
@@ -71,7 +76,7 @@ const BannerComponent = () => {
   const renderComponent = () => {
     return (
       <section className='Banner'>
-        <div className='ContainerWrapper'>
+        <div className='ContainerWrapper Banner-MainContainer Split'>
           <div className='Banner-ContentContainer'>
             { renderContent() }
           </div>

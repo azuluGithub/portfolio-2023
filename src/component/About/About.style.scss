@@ -1,63 +1,61 @@
 .About {
-   
-    &-Components {
-        background-color: transparent;
-    }
-
-    &-ImageContainer {
-        background-color: transparent;
-    }
-
     &-Img {
-        background-color: transparent;
+        object-fit: contain;
     }
 
     &-Content {
-        background-color: transparent;
-    }
-
-    &-ContentContainer {
-        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     &-ContentHeading {
-        background-color: transparent;
+        font-size: var(--fs-xl);
+        font-weight: var(--fw-heavy);
+        color: var(--clr-primary);
+        font-family: var(--clr-primary);
     }
 
     &-SmallSpacer {
-        background-color: transparent;
+        background-color: var(--clr-grey-light);
     }
 
     &-QuoteContainer {
-        background-color: transparent;
+        display: flex;
+        align-items: center;
     }
 
     &-VerticalSpacer {
-        background-color: transparent;
+        height: 120px;
+        width: 14px;
+        background-color: var(--clr-grey-light);
+        margin-right: var(--space-md);
+    }
+
+    &-Contact {
+        margin-bottom: 4px;
     }
 
     &-ContentText {
         background-color: transparent;
-    }
-
-    &-Contacts {
-        background-color: transparent;
-    }
-
-    &-Contact {
-        background-color: transparent;
-    }
-
-    &-ContactContainer {
-        background-color: transparent;
+        font-size: var(--fs-md);
+        font-weight: var(--fw-heavy);
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        max-width: 600px;
     }
 
     &-ContactKey {
-        background-color: transparent;
+        font-size: var(--fs-md);
+        font-weight: var(--fw-heavy);
+        line-height: 20px;
+        color: var(--clr-primary);
+        margin-right: 5px;
     }
-
     
     &-ContactValue {
-        background-color: transparent;
+        font-size: var(--fs-md);
+        font-weight: var(--fw-light);
+        line-height: 20px;
     }
 }

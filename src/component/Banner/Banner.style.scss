@@ -1,30 +1,40 @@
 .Banner {
+    height: calc(100vh - var(--navbar-height));
 
-    &-ContentContainer {
-        background-color: transparent;
+    &-MainContainer {
+        height: 100%;
     }
 
-    &-Content {
-        background-color: transparent;
+    &-ContentContainer {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     &-SubHeading {
-        background-color: transparent;
+        font-size: var(--fs-md);
+        font-weight: var(--fw-light);
+        color: var(--clr-grey-faint);
     }
 
     &-Heading {
-        background-color: transparent;
+        font-size: var(--fs-xxl);
+        font-weight: var(--fw-heavy);
+        color: var(--clr-grey-faint);
     }
     
     &-SmallSpacer {
-        background-color: transparent;
+        background-color: var(--clr-grey-faint);
     }
 
     &-ContentText {
-        background-color: transparent;
+        font-size: 20px;
+        font-weight: var(--fw-light);
+        color: var(--clr-grey-light);
     }
 
     &-Contacts {
-        background-color: transparent;
+        display: flex;
     }
 }

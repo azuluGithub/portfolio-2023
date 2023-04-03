@@ -4,7 +4,7 @@ const IconsContainer = ({ img }) => {
     return (
         <div className='IconsContainer'>
             <img
-                className='IconsContainer-Image'
+                className='IconsContainer-Icon'
                 src={img}
                 alt='icon'
             />

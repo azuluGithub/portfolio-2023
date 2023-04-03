@@ -93,7 +93,7 @@ const TechSystems = () => {
 
     const renderTechSystemsList = () => {
         return (
-            <div className='TechSystems-TechSystemsList'>
+            <div className='Split'>
                 { systemsList.length && systemsList.map(renderTechSystemsCard)}
             </div>
         );
@@ -101,8 +101,10 @@ const TechSystems = () => {
 
     const renderTechSystems = () => {
         return (
-            <div className='TechSystems'>
-                { renderTechSystemsList() }
+            <div className='TechSystems PaddedContainer'>
+                <div className='ContainerWrapper'>
+                    { renderTechSystemsList() }
+                </div>
             </div>
         );
     }

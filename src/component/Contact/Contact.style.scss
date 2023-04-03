@@ -1,28 +1,35 @@
 .Contact {
-    background-color: transparent;
-
     &-Heading {
-        background-color: transparent;
+        font-size: var(--fs-xl);
+        font-weight: var(--fw-heavy);
+        color: var(--clr-primary);
+        font-family: var(--clr-primary);
+        text-transform: capitalize;
     }
     
     &-SmallSpacer {
-        background-color: transparent;
-    }
-    
-    &-Button {
-        background-color: transparent;
+        background-color: var(--clr-grey-light);
+        margin: auto;
     }
     
     &-TextArea {
-        background-color: transparent;
+        width: calc(100% - 2rem);
+        min-height: 200px;
     }
     
     &-InputsContainer {
-        background-color: transparent;
+        width: 100%;
+        display: flex;
+        margin-bottom: 24px;
+        gap: 24px;
     }
     
     &-Input {
-        background-color: transparent;
+        width: 50%;
+    }
+
+    &-Button {
+        box-shadow: var(--box-shadow);
     }
     
  }

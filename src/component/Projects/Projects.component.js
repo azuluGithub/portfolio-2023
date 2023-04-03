@@ -1,3 +1,4 @@
+import Divider from '../Divider';
 import ProjectCard from '../ProjectCard';
 
 import './Projects.style.scss';
@@ -65,6 +66,8 @@ const Projects = () => {
     const renderProjects = () => {
         return (
             <section className='Projects'>
+                <h2 className='Projects-Heading TextCenter'>{'Projects'}</h2>
+                <Divider />
                 { projectsList.length && projectsList.map(renderProjectCard) }
             </section>
         );

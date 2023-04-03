@@ -1,80 +1,134 @@
 .TechStack {
-     background-color: transparent;
-
      &-Heading {
-          background-color: transparent;
+          font-family: 'Source Sans Pro';
+          font-weight: var(--fw-light);
+          font-size: var(--fs-md);
+          line-height: 20px;
+          color: var(--clr-primary);
      }
 
      &-SmallSpacer {
-          background-color: transparent;
+          background-color: var(--clr-grey-light);
+          margin: auto;
      }
 
      &-Row {
-          background-color: transparent;
+          display: flex;
+          height: 60px;
+          align-items: center;
+          justify-content: space-between;
      }
 
      &-JavaScript {
-          background-color: transparent;
+          font-family: var(--ff-secondary);
+          min-width: 80px;
+          display: flex;
+          justify-content: center;
      }
 
      &-React {
-          background-color: transparent;
+          font-family: var(--ff-additional-one);
+          min-width: 80px;
+          display: flex;
+          justify-content: center;
      }
 
      &-TypeScript {
-          background-color: transparent;
+          font-family: var(--ff-additional-two);
+          min-width: 80px;
+          display: flex;
+          justify-content: center;
      }
 
      &-Express {
-          background-color: transparent;
+          font-family: var(--ff-additional-three);
+          min-width: 80px;
+          display: flex;
+          justify-content: center;
      }
      
      &-Tailwind {
-          background-color: transparent;
+          font-family: var(--ff-additional-four);
+          min-width: 80px;
+          display: flex;
+          justify-content: center;
      }
 
      &-Node {
-          background-color: transparent;
+          font-family: var(--ff-additional-five);
+          min-width: 80px;
+          display: flex;
+          justify-content: center;
      }
 
      &-Firebase {
-          background-color: transparent;
+          font-family: var(--ff-additional-six);
+          min-width: 80px;
+          display: flex;
+          justify-content: center;
      }
 
      &-Mysql {
-          background-color: transparent;
+          font-family: var(--ff-additional-seven);
+          min-width: 80px;
+          display: flex;
+          justify-content: center;
      }
 
      &-graphql {
-          background-color: transparent;
+          font-family: var(--ff-additional-eight);
+          min-width: 80px;
+          display: flex;
+          justify-content: center;
      }
 
      &-Mongodb {
-          background-color: transparent;
+          font-family: var(--ff-additional-nine);
+          min-width: 80px;
+          display: flex;
+          justify-content: center;
      }
 
      &-Sass {
-          background-color: transparent;
+          font-family: var(--ff-additional-ten);
+          min-width: 80px;
+          display: flex;
+          justify-content: center;
      }
 
      &-Bootstrap {
-          background-color: transparent;
+          font-family: var(--ff-additional-eleven);
+          min-width: 80px;
+          display: flex;
+          justify-content: center;
      }
      
      &-Redux {
-          background-color: transparent;
+          font-family: var(--ff-additional-twelve);
+          min-width: 80px;
+          display: flex;
+          justify-content: center;
      }
 
      &-Css {
-          background-color: transparent;
+          font-family: var(--ff-additional-thirteen);
+          min-width: 80px;
+          display: flex;
+          justify-content: center;
      }
 
      &-Postgres {
-          background-color: transparent;
+          font-family: var(--ff-additional-fourteen);
+          min-width: 80px;
+          display: flex;
+          justify-content: center;
      }
 
      &-Semantic {
-          background-color: transparent;
+          font-family: var(--ff-additional-fifteen);
+          min-width: 80px;
+          display: flex;
+          justify-content: center;
      }
 
 }

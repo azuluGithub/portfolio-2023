@@ -1,19 +1,26 @@
 .TechSystemsCard {
-     background-color: transparent;
+     box-shadow: var(--box-shadow);
+     border-radius: 0.5rem;
+     padding: 20px 40px;
 
      &-Title {
-          background-color: transparent;
+          font-weight: var(--fw-heavy);
+          font-size: var(--fs-md);
+          line-height: 30px;
+          text-transform: capitalize;
      }
 
      &-SmallSpacer {
-          background-color: transparent;
-     }
-
-     &-Items {
-          background-color: transparent;
+          background-color: var(--clr-grey-light);
      }
 
      &-Item {
-          background-color: transparent;
+          display: flex;
+          align-items: center;
+          margin-bottom: 16px;
+     }
+
+     &-ItemName {
+          text-transform: capitalize;
      }
 }

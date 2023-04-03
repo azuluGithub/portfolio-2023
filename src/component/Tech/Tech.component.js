@@ -8,11 +8,11 @@ const Tech = () => {
     const renderTech = () => {
         return (
             <section className='Tech'>
-                <div className='ContainerWrapper'>
-                    <h2 className='Tech-Heading'>{'Technical Skills'}</h2>
+                <div className='ContainerWrapper PaddedContainer'>
+                    <h2 className='Tech-Heading TextCenter'>{'Technical Skills'}</h2>
                     <TechStack />
-                    <TechSystems />
                 </div>
+                <TechSystems />
             </section>
         );
     }

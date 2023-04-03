@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
+import Divider from '../Divider';
 import './Contact.style.scss';
-
 
 const Contact = () => {
   const [ firstname, setFirstName ] = useState('');
@@ -15,18 +15,18 @@ const Contact = () => {
       <div className='Contact-InputsContainer'>
         <input 
           type='text' 
-          className='Contact-Input' 
+          className='Contact-Input FormInput' 
           name='firstname' 
           value={firstname}
-          placeholder='First Name'
+          placeholder='FIRST NAME'
           onChange={(e) => setFirstName(e.target.value)}
         />
         <input 
           type='text' 
-          className='Contact-Input' 
+          className='Contact-Input FormInput' 
           name='lastname' 
           value={lastname}
-          placeholder='Last Name'
+          placeholder='LAST NAME'
           onChange={(e) => setLastName(e.target.value)}
         />
       </div>
@@ -38,7 +38,7 @@ const Contact = () => {
       <div className='Contact-InputsContainer'>
         <input 
           type='text' 
-          className='Contact-Input' 
+          className='Contact-Input FormInput' 
           name='email' 
           value={email}
           placeholder='EMAIL'
@@ -46,7 +46,7 @@ const Contact = () => {
         />
         <input 
           type='text' 
-          className='Contact-Input' 
+          className='Contact-Input FormInput' 
           name='subject' 
           value={subject}
           placeholder='SUBJECT'
@@ -59,7 +59,7 @@ const Contact = () => {
   const renderMessage = () => {
     return (
       <textarea 
-        className='Contact-TextArea'
+        className='Contact-TextArea FormTextArea'
         name='message'
         value={message}
         onChange={(e) => setMessage(e.target.value)}
@@ -70,13 +70,16 @@ const Contact = () => {
   const renderContact = () => {
     return (
       <section className='Contact'>
-        <div className='ContainerWrapper'>
-          <h1 className='Contact-Heading'>{'contact'}</h1>
-          <div className='Contact-SmallSpacer'></div>
+        <div className='ContainerWrapper PaddedContainer'>
+          <h1 className='Contact-Heading TextCenter'>{'contact'}</h1>
+          <Divider />
+          <div className='Contact-SmallSpacer SmallDivider'></div>
+          <Divider />
           { renderNames() }
           { renderMailAndSubject() }
           { renderMessage() }
-          <button className='Contact-Button'>{'Submit'}</button>
+          <Divider />
+          <button className='Contact-Button Button'>{'Submit'}</button>
         </div>
       </section>
     );

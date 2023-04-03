@@ -1,3 +1,5 @@
+import Divider from '../Divider';
+
 import './ProjectCard.style.scss';
 
 const ProjectCard = ({ project }) => {
@@ -15,14 +17,18 @@ const ProjectCard = ({ project }) => {
             <div className='ProjectCard-ContentContainer'>
                 <div className='ProjectCard-Content'>
                     <span className='ProjectCard-SubHeading'>{subtitle}</span>
+                    <Divider />
                     <h1 className='ProjectCard-Heading'>{title}</h1>
+                    <Divider />
                     <div 
-                        className='ProjectCard-SmallSpacer'
+                        className='ProjectCard-SmallSpacer SmallDivider'
                         style={{ backgroundColor: secondaryColor }}
                     ></div>
+                    <Divider />
                     <p className='ProjectCard-ContentText'>{ about }</p>
+                    <Divider />
                     <button 
-                        className='ProjectCard-Button'
+                        className='ProjectCard-Button Button'
                         style={{ backgroundColor: primaryColor }}
                     >{'read more'}</button>
                 </div>
@@ -49,12 +55,14 @@ const ProjectCard = ({ project }) => {
 
         return (
             <div className='ProjectCard'>
-                <div className='ProjectCard-TypeContainer'>
-                    <span className='ProjectCard-Type'>{type}</span>
-                </div>
-                <div className='ProjectCard-MainContainer'>
-                    { renderContent() }
-                    { renderImage() }
+                <div className='ContainerWrapper'>
+                    <div className='ProjectCard-TypeContainer'>
+                        <span className='ProjectCard-Type'>{type}</span>
+                    </div>
+                    <div className='ProjectCard-MainContainer Split'>
+                        { renderContent() }
+                        { renderImage() }
+                    </div>
                 </div>
                 <div className='ProjectCard-BgImageContainer'>
                     <img
