@@ -53,7 +53,7 @@ const AboutComponent = () => {
       <div className='About-QuoteContainer'>
         <div className='About-VerticalSpacer'></div>
         <div className='About-ContentText'>
-          {`“I have coded in C, PHP, Java, JavaScript and TypeScript. I have learnt Algorithms and Python. I wish to be good in Machine Learning and Artificial Intelligence. I want to build applications that will make impact on millions of lives.”`}
+          {`“I have also built projects using PHP, C, and Java. I wish to be good in Machine Learning and Artificial Intelligence. I want to build applications that will make impact on millions of lives.”`}
         </div>
       </div>
     );

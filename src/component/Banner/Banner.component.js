@@ -54,14 +54,14 @@ const BannerComponent = () => {
   const renderContent = () => {
     return (
       <div className='Banner-Content'>
-        <span className='Banner-SubHeading'>{'Junior Software Developer'}</span>
+        <span className='Banner-SubHeading'>{'Front-End HTML5/CSS3 Developer'}</span>
         <Divider />
         <h1 className='Banner-Heading'>{'ARNOLD ZULU'}</h1>
         <Divider />
         <div className='Banner-SmallSpacer SmallDivider'></div>
         <Divider />
         <p className='Banner-ContentText'>
-          {'I am a MERN Stack JavaScript developer with a Software Engineering NQF level 5 certificate. I can work as a Front-End developer, PHP developer, Node.Js developer, JavaScript developer, React Js developer and Software developer. I build applications in PHP, HTML, CSS, ReactJs, Express and NodeJs, MongoDB, MySQL, PostgreSQL and JavaScript.'}
+          {'I am a Front-End HTML5/CSS3 Developer with a WeThinkCode_ Software Engineering certificate. I am a critical thinker who uses JavaScript, React JS, HTML5, and CSS3 to build reactive and responsive user interfaces that enhance user experience. . I have been working with JavaScript, HTML5, and CSS3 since 2017. I can design user interfaces with Figma and convert designs into code. I am self-motivated and dynamic, capable of working both independently and as part of a team.'}
         </p>
         <Divider />
         { renderContacts() }

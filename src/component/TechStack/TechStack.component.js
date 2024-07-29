@@ -8,7 +8,7 @@ const TechStack = () => {
             <div className='TechStack-Row'>
                 <span className='TechStack-JavaScript'>{'JavaScript'}</span>
                 <span className='TechStack-React'>{'React Js'}</span>
-                <span className='TechStack-TypeScript'>{'TypeScript'}</span>
+                <span className='TechStack-TypeScript'>{'HTML5'}</span>
                 <span className='TechStack-Express'>{'Express Js'}</span>
             </div>
         )
