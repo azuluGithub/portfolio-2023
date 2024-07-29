@@ -27,10 +27,10 @@ const ProjectCard = ({ project }) => {
                     <Divider />
                     <p className='ProjectCard-ContentText'>{ about }</p>
                     <Divider />
-                    <button 
+                    {/* <button 
                         className='ProjectCard-Button Button'
                         style={{ backgroundColor: primaryColor }}
-                    >{'read more'}</button>
+                    >{'read more'}</button> */}
                 </div>
             </div>
         );
