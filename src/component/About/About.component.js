@@ -53,7 +53,7 @@ const AboutComponent = () => {
       <div className='About-QuoteContainer'>
         <div className='About-VerticalSpacer'></div>
         <div className='About-ContentText'>
-          {`“I have also built projects using PHP, C, and Java. I wish to be good in Machine Learning and Artificial Intelligence. I want to build applications that will make impact on millions of lives.”`}
+          {`“I am a Front-End HTML5/CSS3 Developer with a WeThinkCode_ Software Engineering certificate.  I am a critical thinker who uses JavaScript, React JS, HTML5, and CSS3 to build reactive and responsive user interfaces that enhance user experience. Additionally, I have utilized Sass, Styled Components, Semantic UI and Bootstrap.”`}
         </div>
       </div>
     );
