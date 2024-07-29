@@ -11,7 +11,7 @@ const Projects = () => {
             type: 'personal project',
             title: 'college',
             subtitle: 'Mpumalanga Nursing College',
-            about: 'Mpumalanga Nursing College website is a concept landing page that I created to mimic a real life college website. The website is built using HTML5, CSS3, ReactJs, JavaScript and Sass. I personally designed and coded the website.',
+            about: 'Mpumalanga Nursing College website is a concept landing page that I created to mimic a real life college website. The website is built using HTML5, CSS3, ReactJs, JavaScript and Sass.',
             bgImg: `${process.env.PUBLIC_URL}/assets/images/projects/college/college-bg.jpg`,
             img: `${process.env.PUBLIC_URL}/assets/images/projects/college/college-home.png`,
             primaryColor: '#3E40A5',
