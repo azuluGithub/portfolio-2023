@@ -22,7 +22,7 @@ const BannerComponent = () => {
       id: 'linkedin',
       type: 'link',
       img: `${process.env.PUBLIC_URL}/assets/icons/linkedin.png`,
-      url: 'https://www.linkedin.com/in/arnoldzulu-532539150 '
+      url: 'https://www.linkedin.com/in/arnold-zulu-532539150'
     },
     {
       id: 'github',
@@ -33,12 +33,14 @@ const BannerComponent = () => {
   ];
 
   const renderIcon = (contact) => {
-    const { id, img } = contact;
+    const { id, url, img } = contact;
 
     return (
       <IconsContainer 
         key={id} 
-        img={img} 
+        img={img}
+        id={id}
+        url={url}
       />
     );
   }

@@ -10,6 +10,7 @@ const ProjectCard = ({ project }) => {
             about,
             subtitle,
             primaryColor,
+            url,
             secondaryColor 
         } = project;
 
@@ -27,10 +28,13 @@ const ProjectCard = ({ project }) => {
                     <Divider />
                     <p className='ProjectCard-ContentText'>{ about }</p>
                     <Divider />
-                    {/* <button 
+                    <a
+                        href={url}
+                        target="_blank"
+                        rel="noreferrer"
                         className='ProjectCard-Button Button'
                         style={{ backgroundColor: primaryColor }}
-                    >{'read more'}</button> */}
+                    >{'View Project'}</a>
                 </div>
             </div>
         );

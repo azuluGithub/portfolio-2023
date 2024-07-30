@@ -9,6 +9,7 @@ const Contact = () => {
   const [ email, setEmail ] = useState('');
   const [ subject, setSubject ] = useState('');
   const [ message, setMessage ] = useState('');
+  const [ submitted, setSubmitted ] = useState(false);
 
   const renderNames = () => {
     return (
@@ -69,7 +70,7 @@ const Contact = () => {
 
   const renderContact = () => {
     return (
-      <section className='Contact'>
+      <section className='Contact' id='contact'>
         <div className='ContainerWrapper PaddedContainer'>
           <h1 className='Contact-Heading TextCenter'>{'contact'}</h1>
           <Divider />
@@ -79,7 +80,8 @@ const Contact = () => {
           { renderMailAndSubject() }
           { renderMessage() }
           <Divider />
-          <button className='Contact-Button Button'>{'Submit'}</button>
+          <button className='Contact-Button Button' onClick={() =>setSubmitted(true)}>{'Submit'}</button>
+          {submitted && <p className='Contact-Error'>Oooops... Something went wrong!</p>}
         </div>
       </section>
     );

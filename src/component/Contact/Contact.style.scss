@@ -31,5 +31,11 @@
     &-Button {
         box-shadow: var(--box-shadow);
     }
+    &-Error {
+        margin-top: 2rem;
+        font-size: var(--fs-lg);
+        color: var(--clr-red-base);
+        font-family: var(--clr-primary);
+    }
     
  }

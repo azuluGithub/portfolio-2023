@@ -7,7 +7,7 @@ const Tech = () => {
 
     const renderTech = () => {
         return (
-            <section className='Tech'>
+            <section className='Tech' id="skills">
                 <div className='ContainerWrapper PaddedContainer'>
                     <h2 className='Tech-Heading TextCenter'>{'Technical Skills'}</h2>
                     <TechStack />

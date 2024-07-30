@@ -34,6 +34,14 @@ const HomePageComponent = () => {
         );
     }
 
+    const renderBackToTop = () => {
+        return (
+            <div className='HomePage-BackToTop' onClick={() => window.scrollTo(0, 0)}>
+                Back to the Top
+            </div>
+        )
+    }
+
     const renderComponent = () => {
         return (
             <div className='HomePage'>
@@ -43,6 +51,7 @@ const HomePageComponent = () => {
                 <Projects />
                 <Contact />
                 <Footer />
+                { renderBackToTop()}
             </div>
         );
     }

@@ -15,7 +15,8 @@ const Projects = () => {
             bgImg: `${process.env.PUBLIC_URL}/assets/images/projects/college/college-bg.jpg`,
             img: `${process.env.PUBLIC_URL}/assets/images/projects/college/college-home.png`,
             primaryColor: '#3E40A5',
-            secondaryColor: '#E5333C'
+            secondaryColor: '#E5333C',
+            url: 'https://mpumalanga-college.web.app/',
         },
         {
             id: 'logistics',
@@ -26,7 +27,8 @@ const Projects = () => {
             img: `${process.env.PUBLIC_URL}/assets/images/projects/logistics/logistics-home.png`,
             bgImg: `${process.env.PUBLIC_URL}/assets/images/projects/logistics/logistics-bg.jpg`,
             primaryColor: '#3D8182',
-            secondaryColor: '#deb887'
+            secondaryColor: '#deb887',
+            url: 'https://we4u-117b9.web.app/',
         },
         {
             id: 'social',
@@ -37,18 +39,8 @@ const Projects = () => {
             img: `${process.env.PUBLIC_URL}/assets/images/projects/starzonly/starzonly-home.png`,
             bgImg: `${process.env.PUBLIC_URL}/assets/images/projects/starzonly/starzonly-bg.jpg`,
             primaryColor: '#1EB1DD',
-            secondaryColor: '#D8D8D8'
-        },
-        {
-            id: 'dating',
-            title: 'dating',
-            type: 'personal project',
-            subtitle: 'matcha',
-            about: 'Matcha is a WeThinkCode_ school project dating app built in PERN Stack [PostgreSQL, Express, React Js, HTML5, CSS3 And Node Js] and Redux. It’s features includes Registration and Sign-in, User Profile, Search, Like, Chat and Geolocation and Notifications.',
-            img: `${process.env.PUBLIC_URL}/assets/images/projects/matcha/matcha-home.png`,
-            bgImg: `${process.env.PUBLIC_URL}/assets/images/projects/matcha/matcha-bg.jpg`,
-            primaryColor: '#DB7093',
-            secondaryColor: '#D8D8D8'
+            secondaryColor: '#D8D8D8',
+            url: 'https://www.linkedin.com/feed/update/urn:li:activity:6830438016373280768/'
         }
     ];
 
@@ -65,7 +57,7 @@ const Projects = () => {
 
     const renderProjects = () => {
         return (
-            <section className='Projects'>
+            <section className='Projects' id="projects">
                 <h2 className='Projects-Heading TextCenter'>{'Projects'}</h2>
                 <Divider />
                 { projectsList.length && projectsList.map(renderProjectCard) }

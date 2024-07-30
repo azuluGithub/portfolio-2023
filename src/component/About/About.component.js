@@ -100,7 +100,7 @@ const AboutComponent = () => {
 
   const renderAbout = () => {
     return (
-      <section className='About'>
+      <section className='About' id="about">
         <div className='ContainerWrapper PaddedContainer'>
           { renderComponents() }
         </div>
